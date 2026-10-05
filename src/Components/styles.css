@@ -1,0 +1,24 @@
+
+.jjk {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.characterTile{
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 220px;
+    margin: 10px;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+button:hover{
+    box-shadow: 0 0 15px orangered;
+    border-radius: 5px;
+}
